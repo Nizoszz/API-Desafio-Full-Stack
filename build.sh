@@ -5,4 +5,4 @@ set -o errexit
 
 yarn
 yarn build
-yarn prisma migrate deploy -d dist/main
+yarn prisma migrate deploy
