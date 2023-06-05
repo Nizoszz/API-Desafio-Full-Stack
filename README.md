@@ -23,3 +23,10 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+
+## Contato
+
+```bash
+[Linkedin](https://www.linkedin.com/in/andrew-da-silva-569101246/)
+```
+
