@@ -14,7 +14,7 @@ $ yarn install
 ## Inicialização do app
 
 ```bash
-# development
+# desenvolvedor
 $ yarn run start
 
 # watch mode
@@ -22,7 +22,15 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
+
+# migrate mode
+$ npx prisma migrate dev
+
 ```
+## Env para conexão com banco de dados
+DATABASE_URL="postgresql://username:password@host:port/db_name?schema=public"
+SECRET_KEY=
+EXPIRES_IN=
 
 ## Contato
 [Linkedin](https://www.linkedin.com/in/andrew-da-silva-569101246/)
